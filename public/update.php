@@ -107,7 +107,7 @@ if(isset($_POST["product_id"]) && !empty($_POST["product_id"])){
                 
             } else{
                 echo "Oops! Something went wrong.  try again later please.";
-            }
+            } 
         }
         
         // Close statement
