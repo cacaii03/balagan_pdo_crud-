@@ -4,7 +4,7 @@ server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'u593341949.dev_balagan');
 define('DB_PASSWORD', '20221557Balagan');
-define('DB_NAME', 'it28-ecommerce');
+define('DB_NAME', 'u593341949_db_balagan');
  
 /* Attempt to connect to MySQL database */
 try{
