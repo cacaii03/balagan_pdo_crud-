@@ -74,7 +74,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             echo '<div class="alert alert-danger"><em>No records were found.</em></div>';
                         }
                     } else{
-                        echo "Oops! Something went wrong. Please try again later.";
+                        echo "Oops! Something went wrong. try again later, please.";
                     }
                     
                     // Close connection
