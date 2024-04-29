@@ -72,7 +72,7 @@
                             echo '<div class="alert alert-danger"><em>No records were found.</em></div>';
                         }
                     } else{
-                        echo "Oops! Something went wrong. Please try again later.";
+                        echo "Oops! Something went wrong.try again later, Please!.";
                     }
                     
                     // Close connection
