@@ -32,7 +32,7 @@ if(isset($_GET["product_id"]) && !empty(trim($_GET["product_id"]))){
             }
             
         } else{
-            echo "Oops! Something went wrong. Please try again later.";
+            echo "Oops! Something went wrong. Try again later,Please";
         }
     }
      

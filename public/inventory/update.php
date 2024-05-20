@@ -63,7 +63,7 @@ if(isset($_POST["product_id"]) && !empty($_POST["product_id"])){
                 header("location: ../user/dashboard.php");
                 exit();
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Oops! Something went wrong.try again later,Please!.";
             }
         }
          
