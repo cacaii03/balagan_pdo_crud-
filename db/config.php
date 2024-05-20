@@ -2,11 +2,12 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'it28-ecommerce');
- 
-/* Attempt to connect to MySQL database */
+define('DB_NAME', 'u593341949_db_balagan');
+define('DB_USERNAME', 'u593341949_dev_balagan');
+define('DB_PASSWORD', '20221557Balagan');
+
+
+
 try{
     $pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);
     // Set the PDO error mode to exception
